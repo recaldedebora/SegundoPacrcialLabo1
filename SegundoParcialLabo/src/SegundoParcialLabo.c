@@ -41,7 +41,7 @@ función ll_filter* del LinkedList. Guardar el listado en un archivo csv.
 
 int main()
 {
-    setbuf(stdout,NULL);
+	setbuf(stdout,NULL);
     int option;
     LinkedList* listaLibros;
     LinkedList* listaEditoriales;
@@ -61,13 +61,10 @@ int main()
     	printf("\n3. Ordenar la lista generada en el ítem anterior, con la función ll_sort, según el criterio de ordenamiento “Autor” de manera ascendente.");
     	printf("\n4. Imprimir por pantalla todos los datos de los libros.");
     	printf("\n5. Realizar un listado de los libros de la editorial MINOTAURO.Guardar el listado en un archivo csv.");
-    	//printf("\n6.");
-    	//printf("\n7.");
-    	//printf("\n8.");
-    	//printf("\n9.");
-    	printf("\n10. Salir");
+    	printf("\n6.Realizar descuentos");
+    	printf("\n0. Salir");
     	printf("\n*****************************************************");
-    	utn_getNumeroRango(&option, "\nIngrese opcion: ", "Error.", 0, 10, 2);
+    	utn_getNumeroRango(&option, "\nIngrese opcion: ", "Error.", 0, 6, 2);
 
 
         switch(option)
@@ -150,16 +147,14 @@ int main()
 
 			break;
 
-            /*case 6:
-
+            case 6:
+            	if(controller_PrecioConDescuento(listaLibros, listaEditoriales) ==0){
+            		printf("\nSe realizaron los descuentos y se guardaron los precios con el descuento aplicado");
+            	}
+            	else{
+					printf("\nLista de libros editorial Minotauro NO guardada correctamente");
+				}
             break;
-            case 7:
-            break;
-            case 8:
-            break;
-
-            */
-
 
         }
     }while(option != 0);

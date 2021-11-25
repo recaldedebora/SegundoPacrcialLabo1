@@ -32,7 +32,6 @@ struct LinkedList
 #endif
 
 
-
 //Publicas
 /** \brief Crea un nuevo LinkedList en memoria de manera dinamica
  *
@@ -237,3 +236,5 @@ LinkedList* ll_filter(LinkedList* this, int (*fn)(void*));
 
 
 int ll_count(LinkedList* this, int (*fn)(void* element));
+
+int ll_map (LinkedList* this, int (*fn)(void* element));

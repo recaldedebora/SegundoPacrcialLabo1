@@ -470,3 +470,29 @@ int Libro_filtrarMinotauro(void* this){
 	}
 	return retorno;
 }
+
+
+int Libro_HacerDescuento(void* element){
+
+	float precio;
+	int idEditorial;
+
+	Libro_getPrecio((eLibro*)element,&precio);
+	Libro_getIdEditorial((eLibro*)element,&idEditorial);
+
+
+	if(idEditorial == 1 && precio >= 300){
+		//printf("Antes de llamar a la funcion: %f", precio);
+		precio = precio - ( precio* 20 / 100);
+		//printf("Despues de llamar a la funcion: %f", precio);
+	}
+
+	if(idEditorial == 1 && precio <= 200){
+		//printf("Antes de llamar a la funcion: %f", precio);
+		precio = precio - (precio * 10 / 100);
+		//printf("Despues de llamar a la funcion: %f", precio);
+	}
+
+	Libro_setPrecio(element,precio);
+	return precio;
+}

@@ -674,3 +674,37 @@ int ll_count(LinkedList* this, int (*fn)(void* element)){
 
 
 
+
+
+
+
+/** \brief Desarrollar la función ll_map en la biblioteca linkedList, la cual recibirá la lista y una función.
+La función ll_map ejecutará la función recibida como parámetro por cada ítem de la lista, de
+este modo se realizarán descuentos a los precios según se detalla:
+* PLANETA: 20% (si el monto es mayor o igual a $300)
+* SIGLO XXI EDITORES: 10% (si el monto es menor o igual a $200)
+ * \param pList LinkedList* Puntero a la lista
+ * \param pFunc (*pFunc) Puntero a la funcion criterio
+ * \return int Retorna  LinkedList*
+ */
+int ll_map (LinkedList* this, int (*fn)(void* element)){
+	int retorno = -1;
+	void* pElementAuxiliar;
+	int i;
+	int len;
+
+
+	if(this != NULL && fn != NULL){
+
+		len = ll_len(this);
+		 for(i=0;i<len;i++){
+			 pElementAuxiliar =	ll_get(this, i);
+			 fn(pElementAuxiliar);
+			 retorno = 0;
+		 }
+	}
+    return retorno;
+}
+
+
+

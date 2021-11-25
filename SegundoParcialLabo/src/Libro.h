@@ -50,4 +50,5 @@ void Libro_show_conEditorial(eLibro* this, LinkedList* editorial);
 
 
 int Libro_filtrarMinotauro(void* this);
+int Libro_HacerDescuento(void* element);
 #endif /* LIBRO_H_ */
