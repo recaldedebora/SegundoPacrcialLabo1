@@ -1,0 +1,101 @@
+id,titulo,autor,precio,idEditorial
+1,Wallace & Gromit,Elianore Haddon,3848.74,1
+2,Statement,Magda Liger,3461.26,2
+3,One of Our Dinosaurs Is Missing,Gillian Kingsnod,1247.25,3
+4,Vampire Bat,Cati Grim,3983.75,4
+5,Arranged,Rosabella Halgreave,1139.35,5
+6,Gilded Lily,Chelsy Biers,4839.04,6
+7,Across 110th Street,Blanche Sweetmore,1868.57,1
+8,To Sir with Love,Janel Ayce,3017.16,2
+9,Observe and Report,Vinson Cheeseman,3811.12,3
+10,Rebel,Rosamund Broadhead,1156.62,4
+11,MURDER and murder,Base Hassey,4194.15,5
+12,Night to Remember,Gillian Kingscott,4997.82,6
+13,Woman in the Dunes,Rey Frowen,2399.5,1
+14,Spy Next Door,Iormina Nicklen,3467.12,2
+15,Blended,Maureene Worthington,648.93,3
+16,Maybe Not,Stanley Durand,1354.94,4
+17,Morning Glory,Blaine Gounot,2521.41,5
+18,Take a Giant Step,Ferdy Toope,2308.97,6
+19,Lesson in Love,Cyrillus Aldham,4331.5,1
+20,Space Pirate Captain Harlock,Cassaundra Newall,711.84,2
+21,Act Da Fool,Barnabas Malkin,1627.25,3
+22,Temp The,Bonita Delong,3951,4
+23,Summer Palace,Suki Hanes,4977.38,5
+24,Crossroads,Odille Demaid,3518.31,6
+25,Deadly Outlaw: Rekka,Bliss Klimpt,2120.91,1
+26,Provocateur,Aluin Spir,3046.61,2
+27,Out to Sea,Garreth Hallet,3591.21,3
+28,388 Arletta Avenue,Cyndy Gipp,1375.7,4
+29,Tinker Bell and the Lost Treasure,Chantal Elgram,2812.4,5
+30,Judge Priest,Diandra Frenchum,1735.18,6
+31,Bird People in China,Alford Semkins,2515.86,1
+32,Daytrippers,Arron Heap,1188.65,2
+33,Dark Journey,Barris Sayton,1286.32,3
+34,Biutiful,Patin Mager,1707.53,4
+35,Soldiers Girl,Michaeline Payn,3669.32,5
+36,Anne of Green Gables,Carolynn Pavlovsky,3215.79,6
+37,Darling,Randy Owens,4007.48,1
+38,Saint of Fort Washington,Hilliary Jess,1878.12,2
+39,Brannigan,Ignazio Pickavance,1573.29,3
+40,Under the Same Moon,Eugenie Maier,524.05,4
+41,Nightmare on Elm Street ,Hendrick Pedrocchi,4881.37,5
+42,Caterina in the Big City,Renell Messom,1430.48,6
+43,Amistad,Iseabal Danbury,2100.19,1
+44,Lonely Guy,Tally Geraldini,3335.83,2
+45,Amador,Timothee Denk,4932.63,3
+46,No Way Back,Perceval Hamsley,2055.92,4
+47,Fanny and Alexander ,Floris Mustill,2790.4,5
+48,Down by Law,Melisent Bangle,4153.51,6
+49,Big Parade,Kirsteni Jeves,4296.73,1
+50,Warlords,Isidor Borne,1875.27,2
+51,Dark Island,Chrysa Goulbourne,4479.33,3
+52,Dirty Wars,Bertie Gniewosz,3448.75,4
+53,Police Python 357,Roxine Cliffe,2873.29,5
+54,This Could Be The Night,Abdel Antonazzi,2333.82,6
+55,Autopsy,Montague Jowett,528.25,1
+56,Drag Me to Hell,Susann Wannan,2765.36,2
+57,Baby... Secret of the Lost Legend,Donnie Gothrup,731.97,3
+58,Snow White and the Huntsman,Winny Muehler,3106.97,4
+59,Quand je serai petit,Jarrid Shipperbottom,2373.72,5
+60,Caged Heat,Auguste Spera,1143.8,6
+61,White Lightning,Marwin Beringer,3162.74,1
+62,Herbie Goes Bananas,Deborah Ashurst,2597.13,2
+63,Crow The: Wicked Prayer,Tonya Girhard,1349.14,3
+64,Kill Switch,Baxter Templeman,4343,4
+65,Damnation Alley,Brennan Gamblin,4616.73,5
+66,Good Doctor,Dorena Kertess,4150.93,6
+67,Bat Whispers,Bobina Ahmad,4112.04,1
+68,The Big Shave,Torey Charnley,1902.19,2
+69,Emo Philips Live,Kelcy Tolwood,4020.88,3
+70,Prayer for the Dying,Edyth Whitwell,1919.94,4
+71,Dust to Glory,Cesar Stallan,2964.41,5
+72,Great Ecstasy of Woodcarver Steiner,Ardene Garnsworthy,2731.13,6
+73,Crystal Lake Memories,Carolus Davie,1050.15,1
+74,Miss ,Hobey Dignan,707.87,2
+75,Tiger of Eschnapur,Sharline Uttermare,4356,3
+76,Breed Apart,Aile Barnwill,1339.05,4
+77,Rink,Henrie Gregor,2128.69,5
+78,Dim Sum: A Little Bit of Heart,Garland Macauley,1220.63,6
+79,The Heart Machine,Lizbeth Kirvin,2864.06,1
+80,The Fuller Brush Man,Dan Egar,2954.46,2
+81,Fairly Odd Christmas,Rosalia McGeady,917.13,3
+82,Great Race,Demetri Jovasevic,1834.48,4
+83,Birdsong ,Lorianne Logie,1901.45,5
+84,Fever in the Blood,Leslie Rosendall,3180.77,6
+85,Malice N Wonderland,Raina Conybear,1485,1
+86,Seventh Son,Davida Abrahamian,1390.2,2
+87,Dillinger,Allie Coppard,944.67,3
+88,I Killed My Mother ,Nikolaos Silwood,2167.83,4
+89,Home Song Stories,Ingar Hare,1656.65,5
+90,Thunderbolt and Lightfoot,Neddie Ure,2957.66,6
+91,Batteries not included,Virginie McGlone,687.63,1
+92,Kivski Freski,Sidonia Andrivel,4034.51,2
+93,2009: Lost Memories,Francisco Liepina,3267.53,3
+94,Suicide Club,Ansell Picford,4276.29,4
+95,Street Fighter: The Legend ,Noe Normandale,2245.47,5
+96,Living and the Dead,Giulietta Pinshon,2026.86,6
+97,Lone Wolf and Cub,Gabriella Dugget,4446.99,1
+98,A Justified Life,Adriena Jedraszek,747.34,2
+99,Out of the Blue,Mortimer Penman,4528.82,3
+100,Last Days in Vietnam,Lolly Erie,4867.55,4
