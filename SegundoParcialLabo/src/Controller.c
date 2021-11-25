@@ -270,13 +270,13 @@ int controller_saveAsText(char* path , LinkedList* pArrayListLibros)
 }
 
 
-int controller_PrecioConDescuento(LinkedList* pArrayListLibros, LinkedList* pArrayListEditoriales)
+int controller_PrecioConDescuento(char* path ,LinkedList* pArrayListLibros, LinkedList* pArrayListEditoriales)
 {
 
 
 	int retorno;
 	retorno = -1;
-	if(pArrayListLibros != NULL && pArrayListEditoriales!=NULL){
+	if(pArrayListLibros != NULL && pArrayListEditoriales!=NULL && path!=NULL){
 
 
 		if(ll_map(pArrayListLibros, Libro_HacerDescuento)== 0){
@@ -285,6 +285,7 @@ int controller_PrecioConDescuento(LinkedList* pArrayListLibros, LinkedList* pArr
 
 		printf("\nLista auxiliar con descuentos incluidos: \n");
 		controller_ListLibrosConEditorial(pArrayListLibros, pArrayListEditoriales);
+		controller_saveAsText(path , pArrayListLibros);
 	}
 
 	return retorno;

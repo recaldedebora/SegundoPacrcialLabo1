@@ -148,11 +148,11 @@ int main()
 			break;
 
             case 6:
-            	if(controller_PrecioConDescuento(listaLibros, listaEditoriales) ==0){
+            	if(controller_PrecioConDescuento("mapeado.csv" ,listaLibros, listaEditoriales) ==0){
             		printf("\nSe realizaron los descuentos y se guardaron los precios con el descuento aplicado");
             	}
             	else{
-					printf("\nLista de libros editorial Minotauro NO guardada correctamente");
+					printf("\nLista de libros con descuento NO guardada correctamente");
 				}
             break;
 
