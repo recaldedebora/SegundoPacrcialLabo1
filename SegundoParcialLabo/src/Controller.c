@@ -270,27 +270,3 @@ int controller_saveAsText(char* path , LinkedList* pArrayListLibros)
 }
 
 
-int controller_acumuladorPrecio(LinkedList* pArrayListLibros)
-{
-
-	int retorno;
-	retorno = 0;
-	float acumulador;
-
-	acumulador = ll_count(pArrayListLibros,RetornarPecioLibro);
-	printf("ACUMULADOR: %f", acumulador);
-
-	return retorno;
-}
-
-
-int RetornarPecioLibro(LinkedList* pArrayListLibros){
-
-;
-	float precio;
-
-	Libro_getPrecio((eLibro*)pArrayListLibros,&precio);
-	//printf("Precio obtenido: %f" , precio);
-
-	return precio;
-}

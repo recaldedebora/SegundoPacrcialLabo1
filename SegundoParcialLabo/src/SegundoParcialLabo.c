@@ -150,10 +150,10 @@ int main()
 
 			break;
 
-            case 6:
-              controller_acumuladorPrecio(listaLibros);
+            /*case 6:
+
             break;
-            /*case 7:
+            case 7:
             break;
             case 8:
             break;

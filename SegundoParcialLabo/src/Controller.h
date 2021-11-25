@@ -16,5 +16,4 @@ int controller_ListEditoriales(LinkedList* pArrayListEditoriales);
 int controller_ListLibrosConEditorial(LinkedList* pArrayListeLibro, LinkedList* pArrayListEditoriales);
 int controller_filterMinotauro(LinkedList* listaLibros, LinkedList* pArrayListEditoriales);
 int controller_saveAsText(char* path , LinkedList* pArrayListLibros);
-int RetornarPecioLibro(LinkedList* pArrayListLibros);
-int controller_acumuladorPrecio(LinkedList* pArrayListLibros);
+
